@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
+const unirest = require("unirest");
 const client = new Discord.Client();
 const prefix = config.prefix;
 
